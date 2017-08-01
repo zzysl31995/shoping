@@ -3566,7 +3566,7 @@ promise@^7.1.1, promise@^7.3.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7:
   version "15.5.10"
   resolved "http://r.cnpmjs.org/prop-types/download/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -3704,6 +3704,14 @@ react-router@^4.1.1, react-router@^4.1.2:
     path-to-regexp "^1.5.3"
     prop-types "^15.5.4"
     warning "^3.0.0"
+
+react-swipe@^5.0.8:
+  version "5.0.8"
+  resolved "http://r.cnpmjs.org/react-swipe/download/react-swipe-5.0.8.tgz#95cae31f2d74e1b4886f01ffcb72837b375b66eb"
+  dependencies:
+    object-assign "^4.1.0"
+    prop-types "^15.5.7"
+    swipe-js-iso "^2.0.3"
 
 react@^15.6.1:
   version "15.6.1"
@@ -4282,6 +4290,10 @@ svgo@^0.7.0, svgo@^0.7.2:
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
+
+swipe-js-iso@^2.0.3:
+  version "2.0.3"
+  resolved "http://r.cnpmjs.org/swipe-js-iso/download/swipe-js-iso-2.0.3.tgz#76892ca4fc2928f384ac042739a25f7afe6fcf74"
 
 symbol-observable@^1.0.3, symbol-observable@^1.0.4:
   version "1.0.4"

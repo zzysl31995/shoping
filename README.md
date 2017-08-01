@@ -35,3 +35,8 @@ yarn add react react-router-dom react-redux redux
 yarn add express 
 
 ```
+
+##swipe插件 
+``` 
+yarn add swipe-js-iso react-swipe
+```
