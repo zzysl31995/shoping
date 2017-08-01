@@ -20,14 +20,14 @@ import {getStore} from '../local/index'
         )
     }
     componentDidMount(){
-        let city = getStore('cityName');
-        if(city===null){
-            city='北京';
-        }else{
-            this.props.userAction.update({
-                city:cityName
-            })
+        let cityName = getStore('cityName');
+        if(cityName==null){
+            cityName = '北京'
         }
+        this.props.userAction.update(
+            {cityName}
+            )
+
         setInterval(()=>{
             this.setState({
                 done:true
