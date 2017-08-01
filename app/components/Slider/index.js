@@ -13,7 +13,7 @@ export default  class Slider extends Component{
          this.setState({
              index
          })
-     }}
+     }};
         return (
             <div>
                 <ReactSwipe className="carousel" swipeOptions={opts}>
