@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
+import HomeHeader from "../../components/HomeHeader/index";
 
 export default  class Home extends Component{
     render(){
         return (
-            <div>
-                <h2>hello world</h2>
-            </div>
+           <div>
+               <HomeHeader cityName="北京"/>
+           </div>
         )
     }
 }

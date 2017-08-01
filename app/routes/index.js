@@ -6,7 +6,7 @@ export default class RouterMap extends Component{
         return (
             <Router>
                 <Switch>
-                    <Route path="/" component={Home}></Route>
+                    <Route exact path="/" component={Home}></Route>
                 </Switch>
             </Router>
         )

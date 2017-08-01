@@ -1,0 +1,29 @@
+.home-header {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.home-header .city {
+  flex: 1;
+  margin-left: 9px;
+}
+.home-header .search {
+  flex: 4;
+  height: 30px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+.home-header .search i {
+  color: #7f7f7f;
+  margin: 0 4px;
+}
+.home-header .search input {
+  border: none;
+}
+.home-header .icon {
+  flex: .5;
+  margin-left: 8px;
+}
