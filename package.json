@@ -675,7 +675,9 @@
     "yargs": "^6.6.0",
     "yargs-parser": "^4.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "es6-promise": "^4.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhangweiheng/shoping.git"
