@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import ReactMap from '../routes/index'
 import {bindActionCreators} from 'redux';
 import * as Actions from '../actions/userInfo';
+import {getStore} from '../local/index'
 //这是根组件
  class App extends Component {
     constructor(){
@@ -19,6 +20,14 @@ import * as Actions from '../actions/userInfo';
         )
     }
     componentDidMount(){
+        let city = getStore('cityName');
+        if(city===null){
+            city='北京';
+        }else{
+            this.props.userAction.update({
+                city:cityName
+            })
+        }
         setInterval(()=>{
             this.setState({
                 done:true
