@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
+import App from './containers/index'
 render(
-    <h3>hello world</h3>
+    <App/>
     ,document.getElementById("root")
 );
