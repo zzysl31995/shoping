@@ -1,0 +1,32 @@
+.list-item {
+  position: relative;
+  margin: 10px 0;
+  display: flex;
+}
+.list-item img {
+  width: 120px;
+  height: 90px;
+}
+.list-item .list-item-content {
+  width: 100%;
+  margin-left: 6px;
+  line-height: 30px;
+}
+.list-item .list-item-content p {
+  font-size: 16px;
+}
+.list-item .list-item-content div {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item .list-item-content div strong {
+  color: #e9203d;
+}
+.list-item .list-item-content div span {
+  color: #7f7f7f;
+}
+.list-item .distance {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
