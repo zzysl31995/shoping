@@ -14,6 +14,9 @@
 }
 .list-item .list-item-content p {
   font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .list-item .list-item-content div {
   display: flex;
