@@ -17,6 +17,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  width: 150px;
 }
 .list-item .list-item-content div {
   display: flex;
